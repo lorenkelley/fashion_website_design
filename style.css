@@ -15,7 +15,7 @@ nav ul{
 
 
 .container{
-    width: 930px;
+   
     font-family: 'Lato', sans-serif;
     margin: auto 0;
     font-size: 17px;
@@ -23,11 +23,13 @@ nav ul{
 }
 
 main{
-    width: 60%;
+    width: 66%;
+    
 }
 
 nav ul{
     display: flex;
+    justify-content: space-between;
 }
 h1 h2 h3 h4 h5 h6{
     margin: 0;
@@ -55,6 +57,8 @@ h2{
 
 time{
     font-size: 32px;
+    font-weight: normal;
+	color: #CCC;
 }
 
 
@@ -77,7 +81,7 @@ text-align: right;
 
 img{
     display: block;
-    margin: 8px 0;
+    margin: 10px 0;
     max-width: 100%;
 }
 
@@ -103,7 +107,7 @@ header nav ul{
 }
 
 header nav ul li{
-    width: 16%;
+    width: 20%;
     margin: 0;
     padding: 0;
 
@@ -114,7 +118,7 @@ header nav a{
     background: black;
     text-align: center;
     padding: 15px 0;
-    margin-right: 0;
+    margin-right: 1.5px;
     font-size: 1.25em;
 
 }
@@ -144,4 +148,7 @@ article p:first-of-type::first-letter{
 
 .move :last-of-type{
     border:none;
+}
+.ad img {
+	margin: auto;
 }
