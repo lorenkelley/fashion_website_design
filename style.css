@@ -19,11 +19,11 @@ nav ul{
     font-family: 'Lato', sans-serif;
     margin: auto 0;
     font-size: 17px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 main{
-    width: 66%;
+    width: 46%;
     
 }
 
@@ -64,7 +64,7 @@ time{
 
 
 aside{
-    width:30%;
+    width:35%;
     color:gray;
     margin-top: 6em;
 }
@@ -130,15 +130,16 @@ header nav a:hover{
 
 article{
     padding-bottom: 13px;
-    margin: 45px;
+    margin: 3em 0;
     border-bottom: 1px solid;
 }
 
 article p:first-of-type::first-letter{
+   
     font-size: 6em;
-    line-height: 1;
+    line-height: .5;
     color: gray;
-    margin: -.1em -.1em 0 -.1em;
+    margin: -.1em em 0 -.1em;
 }
 
 .move{
@@ -151,4 +152,11 @@ article p:first-of-type::first-letter{
 }
 .ad img {
 	margin: auto;
+}
+
+footer{
+    display: flex;
+  
+ 
+  justify-content: center;
 }
